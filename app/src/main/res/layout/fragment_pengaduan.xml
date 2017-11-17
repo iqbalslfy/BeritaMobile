@@ -33,6 +33,42 @@
             />
 
         <EditText
+            android:id="@+id/et_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_roundborder_border_transparent"
+            android:hint="@string/lokasi"
+            android:textColorHint="@color/sub_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:inputType="textCapWords"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="16dp"
+            />
+
+        <EditText
+            android:id="@+id/et_no_hp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_roundborder_border_transparent"
+            android:hint="@string/no_hp"
+            android:textColorHint="@color/sub_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:inputType="textCapWords"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="16dp"
+            />
+
+        <EditText
             android:id="@+id/et_comment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,7 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@color/input_register_bg"
-            android:text="@string/send_comment"
+            android:text="@string/send_pengaduan"
             android:gravity="center"
             android:textAllCaps="false"
             android:textSize="18sp"

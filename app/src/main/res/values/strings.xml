@@ -10,6 +10,8 @@
     <string name="welcome">Welcome</string>
     <string name="btn_logout">LOGOUT</string>
     <string name="name">Full Name</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="no_hp">No HP</string>
 
     <!--Navigation Drawer menu label-->
     <string name="nav_home">Dashboard</string>
@@ -60,7 +62,7 @@
     <string name="kriteria">Kriteria</string>
     <string name="polsek">Polres</string>
     <string name="keterangan">Keterangan</string>
-    <string name="lokasi">Lokasi Kegiatan</string>
+    <string name="lokasi_kegiatan">Lokasi Kegiatan</string>
     <string name="foto">Pilih Foto Kegiatan</string>
     <string name="tmbhfoto">Pilih dari Gallery</string>
     <string name="submit">Submit</string>
@@ -81,5 +83,6 @@
     <string name="reader_comments">Komentar Pembaca:</string>
     <string name="comment_body">Isi komentar</string>
     <string name="send_comment">Kirim Komentar</string>
+    <string name="send_pengaduan">Kirim Pengaduan</string>
     <string name="select_image">Pilih gambar..</string>
 </resources>
