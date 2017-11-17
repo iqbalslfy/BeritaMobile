@@ -26,7 +26,7 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.MainPageActivity"
+            android:name=".activity.HomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -57,7 +57,7 @@
                 android:value="com.samsung.muhammad.polisi.activity.RankingActivity" />
         </activity>
         <activity
-            android:name=".activity.HomeActivity"
+            android:name=".activity.MainPageActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -70,7 +70,7 @@
         <activity android:name=".activity.PantauDanaActivity" />
         <activity android:name=".activity.RembukDesaActivity" />
         <activity android:name=".activity.PengaduanActivity" />
-        <activity android:name=".activity.SubmitCommentActivity"></activity>
+        <activity android:name=".activity.SubmitCommentActivity"/>
 
         <activity
             android:name="com.yalantis.ucrop.UCropActivity"

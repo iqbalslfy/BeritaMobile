@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/apollo"
+                android:scaleType="centerCrop"
+                />
+
+           <LinearLayout
+               android:layout_below="@+id/imageProfile"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:padding="20dp">
+               <EditText
+                   android:id="@+id/et_namaPengguna"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:background="@drawable/shape_roundborder_border_transparent"
+                   android:hint="@string/nama_pengguna"
+                   android:textColorHint="@color/sub_text"
+                   android:textColor="@color/black"
+                   android:textSize="16sp"
+                   android:paddingLeft="12dp"
+                   android:paddingRight="12dp"
+                   android:maxLines="1"
+                   android:maxLength="20"
+                   android:inputType="textCapWords"
+                   android:imeOptions="actionNext"
+                   />
+
+               <EditText
+                   android:id="@+id/et_no_hp"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:background="@drawable/shape_roundborder_border_transparent"
+                   android:hint="@string/no_hp"
+                   android:textColorHint="@color/sub_text"
+                   android:textColor="@color/black"
+                   android:textSize="16sp"
+                   android:paddingLeft="12dp"
+                   android:paddingRight="12dp"
+                   android:maxLines="1"
+                   android:maxLength="20"
+                   android:inputType="textCapWords"
+                   android:imeOptions="actionNext"
+                   android:layout_marginTop="16dp"
+                   />
+
+               <EditText
+                   android:id="@+id/et_alamat"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:background="@drawable/shape_roundborder_border_transparent"
+                   android:hint="@string/alamat"
+                   android:textColorHint="@color/sub_text"
+                   android:textColor="@color/black"
+                   android:textSize="16sp"
+                   android:paddingLeft="12dp"
+                   android:paddingRight="12dp"
+                   android:maxLines="1"
+                   android:maxLength="20"
+                   android:inputType="textCapWords"
+                   android:imeOptions="actionNext"
+                   android:layout_marginTop="16dp"
+                   />
+
+               <EditText
+                   android:id="@+id/et_comment"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/shape_roundborder_border_transparent"
+                   android:hint="@string/comment_body"
+                   android:textColorHint="@color/sub_text"
+                   android:textColor="@color/black"
+                   android:textSize="16sp"
+                   android:padding="12dp"
+                   android:layout_marginTop="16dp"
+                   android:inputType="textMultiLine"
+                   android:lines="5"
+                   android:gravity="top|left"
+                   android:imeOptions="actionDone"
+                   android:visibility="gone"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginTop="16dp">
+
+                   <ImageView
+                       android:id="@+id/iv_image"
+                       android:layout_width="100dp"
+                       android:layout_height="60dp"
+                       android:background="@color/divider"
+                       android:scaleType="centerCrop"
+                       android:layout_marginRight="10dp"
+                       android:visibility="gone"/>
+
+                   <Button
+                       android:id="@+id/bt_select_image"
+                       android:layout_width="wrap_content"
+                       android:layout_height="30dp"
+                       android:background="@color/colorPrimary"
+                       android:text="@string/select_image"
+                       android:paddingLeft="10dp"
+                       android:paddingRight="10dp"
+                       android:gravity="center"
+                       android:textAllCaps="false"
+                       android:textSize="14sp"
+                       android:textColor="@color/white" />
+
+               </LinearLayout>
+
+               <Button
+                   android:id="@+id/bt_send"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:background="@color/input_register_bg"
+                   android:text="@string/save"
+                   android:gravity="center"
+                   android:textAllCaps="false"
+                   android:textSize="18sp"
+                   android:textColor="@color/white"
+                   android:layout_marginTop="18dp"/>
+           </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

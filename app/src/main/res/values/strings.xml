@@ -85,4 +85,8 @@
     <string name="send_comment">Kirim Komentar</string>
     <string name="send_pengaduan">Kirim Pengaduan</string>
     <string name="select_image">Pilih gambar..</string>
+    <string name="nama_pengguna">NAMA PENGGUNA</string>
+    <string name="alamat">ALAMAT</string>
+    <string name="save">SIMPAN</string>
+
 </resources>
