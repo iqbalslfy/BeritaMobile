@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <GridView
+        android:id="@+id/mygridview"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_gravity="bottom"
+
+        android:columnWidth="180dp"
+        android:gravity="center|bottom"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:paddingBottom="0dp"
+
+        android:stretchMode="spacingWidth"
+        android:verticalSpacing="5dp"
+        android:visibility="visible"
+
+        />
+
+</FrameLayout>

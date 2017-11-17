@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_contact_pengaduan"
+            android:title="@string/nav_profil" />
+        <item
+            android:id="@+id/nav_lapor"
+            android:icon="@drawable/ic_formulir_pengaduan"
+            android:title="@string/nav_lapor_kasus" />
+        <item
+            android:id="@+id/nav_pesan"
+            android:icon="@drawable/ic_panduan"
+            android:title="@string/nav_pesan" />
+        <item
+            android:id="@+id/nav_diskusi"
+            android:icon="@drawable/ic_contact_pengaduan"
+            android:title="@string/nav_diskusi" />
+        <item
+            android:id="@+id/nav_berita"
+            android:icon="@drawable/ic_formulir_pengaduan"
+            android:title="@string/nav_berita" />
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_notifications"-->
+            <!--android:icon="@drawable/ic_notifications"-->
+            <!--android:title="@string/nav_notifications"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_setting"-->
+            <!--android:icon="@drawable/ic_setting"-->
+            <!--android:title="@string/nav_settings" />-->
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/nav_tentang" />
+            <!--<item-->
+                <!--android:id="@+id/nav_privacy_policy"-->
+                <!--android:title="@string/privacy_policy" />-->
+
+            <!--<item android:id="@+id/nav_menu"-->
+                <!--android:title="@string/nav_menu"/>-->
+        </menu>
+    </item>
+
+</menu>

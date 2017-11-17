@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/list">
+
+    <TextView
+        android:id="@+id/kode_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="1"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:visibility="gone"
+
+        />
+    <TextView
+        android:id="@+id/txtRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:id="@+id/nama_polres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:text="Nama Kasus"
+
+        android:textSize="20dp"
+        android:inputType="textCapWords"
+        android:layout_toRightOf="@+id/kode_id"
+        android:elegantTextHeight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignBottom="@+id/kode_id"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/poin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:elegantTextHeight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="1"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/nama_polres"
+
+        />
+
+
+</RelativeLayout>

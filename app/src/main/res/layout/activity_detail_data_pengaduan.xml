@@ -1,0 +1,241 @@
+<ScrollView
+    android:background="@drawable/wallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:layout_margin="6dp"
+        android:background="@drawable/oval"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/title_kasus"
+            android:textAlignment="center"
+            android:layout_marginBottom="10sp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/input_login"
+            android:shadowColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/idd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5sp"
+            android:text="@string/kategori"
+            android:textStyle="bold"
+            android:textColor="#000110"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/kategorid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/oval"
+            android:editable="false"
+            android:padding="5sp"
+            android:textSize="15sp"
+            android:maxLines="1"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5sp"
+            android:text="@string/kriteria"
+            android:textStyle="bold"
+            android:textColor="#000110"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/kriteriad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/oval"
+            android:editable="false"
+            android:padding="5sp"
+            android:textSize="15sp"
+            android:maxLines="1"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5sp"
+            android:text="@string/polsek"
+            android:textStyle="bold"
+            android:textColor="#000110"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/polsekd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/oval"
+            android:editable="false"
+            android:padding="5sp"
+            android:textSize="15sp"
+            android:maxLines="1"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tgl"
+            android:textSize="15sp"
+            android:paddingBottom="5sp"
+            android:textColor="#000110"/>
+
+        <EditText
+            android:id="@+id/tanggald"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval"
+            android:padding="5sp"
+            android:textSize="15sp"
+            android:editable="false"
+            android:layout_marginBottom="10sp"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul"
+            android:textSize="15sp"
+            android:paddingBottom="5sp"
+            android:textColor="#000110"/>
+
+        <EditText
+            android:id="@+id/juduld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval"
+            android:padding="5sp"
+            android:textSize="15sp"
+
+            android:editable="false"
+            android:layout_marginBottom="10sp"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/keterangan"
+            android:paddingBottom="5sp"
+            android:textSize="15sp"
+            android:textColor="#000110"/>
+
+        <EditText
+            android:id="@+id/ketd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval"
+            android:padding="5sp"
+            android:textSize="15sp"
+
+            android:editable="false"
+            android:layout_marginBottom="10sp"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lokasi"
+            android:paddingBottom="5sp"
+            android:textSize="15sp"
+            android:textColor="#000110"/>
+
+        <EditText
+            android:id="@+id/lokasid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval"
+            android:padding="5sp"
+            android:textSize="15sp"
+
+            android:editable="false"
+
+            tools:ignore="TextFields" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5sp"
+            android:text="@string/status"
+            android:textStyle="bold"
+            android:textColor="#000110"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/statusd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/oval"
+            android:editable="false"
+            android:padding="5sp"
+
+            android:textSize="15sp"
+            android:maxLines="1"
+            tools:ignore="TextFields" />
+        <Spinner
+            android:id="@+id/spinstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            />
+
+        <ImageView
+            android:id="@+id/imgdLaporan"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/urlimgd"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Foto ini diambil dari pelapor saat mengadukan kejadian"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:padding="10dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+

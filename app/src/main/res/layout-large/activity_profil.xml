@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+
+
+
+            <RelativeLayout
+                android:id="@+id/img_profilPolsek"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgProfilPolsek"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/ic_launcher_round"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/urlImageP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/ic_name"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_home_black"
+                    android:layout_below="@+id/imgProfilPolsek"
+                    />
+                <EditText
+                    android:id="@+id/editNamaPolres"
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:layout_below="@+id/imgProfilPolsek"/>
+
+
+                <ImageView
+                    android:id="@+id/ic_alamat"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_alamat"
+                    android:layout_below="@+id/ic_name"
+                    />
+
+                <EditText
+                    android:id="@+id/editAlamatPolres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:layout_below="@+id/editNamaPolres"/>
+
+
+                <ImageView
+                    android:id="@+id/ic_nohp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_nomorhp"
+                    android:layout_below="@+id/editAlamatPolres"
+                    />
+
+                <EditText
+                    android:id="@+id/editNoHp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:layout_below="@+id/editAlamatPolres"/>
+
+                <ImageView
+                    android:id="@+id/ic_norek"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_name"
+                    android:layout_below="@+id/ic_nohp"
+                    />
+
+                <EditText
+                    android:id="@+id/editPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:layout_below="@+id/editNoHp"/>
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update Data"
+                    android:layout_below="@+id/editPassword"/>
+
+
+            </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samsung.muhammad.polisi.activity.DiskusiActivity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="332dp"
+        android:layout_height="527dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Program aplikasi (e-policing) “PROMOTER POLDA SUMUT”, sebuah Program berbasis TI yang terintegrasi dengan 27 Polres jajaran Polda Sumut, yang merupakan singkatan dari Profesional, Modern dan Terpercaya Polda Sumatera Utara.  Program aplikasi (e-policing) “PROMOTER POLDA SUMUT’,  merupakan aplikasi yang di instal melalui play store pada android dan iOS, yang mampu menampung pelaporan Implementasi Kebijakan dan Strategi Kapolda Sumut, serta mampu menjadi sarana penyampaian arahan Pimpinan kepada Anggota dan juga adanya media komunikasi online dan feed back antara Pimpinan dan Anggota terkait dengan pelaksanaan tugas kedinasan dijajaran Polda Sumut.  Aplikasi ini juga diharapkan akan terhubung dengan Tribrata News Polda Sumut, Aplikasi POLISI KITA dan SI BETAH, serta Media Sosial Polda Sumut. "
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="17dp" />
+</android.support.constraint.ConstraintLayout>
