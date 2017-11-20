@@ -35,6 +35,8 @@ public class AboutUsActivity extends AppCompatActivity {
     private String JSON_STRING;
     private LoginResponse user;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
